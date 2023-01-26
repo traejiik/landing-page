@@ -1,6 +1,5 @@
 body {
     font-family: Roboto, sans-serif;
-    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -18,17 +17,10 @@ body {
     justify-content: space-around;
 }
 
-.himg{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
 .icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    flex-shrink: 0;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .hlinks {
@@ -111,7 +103,15 @@ button {
 }
 
 .info {
-    max-width: 200px;
+    max-height: 200px;
+}
+
+.cube {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
 }
 
 .quad3 {
@@ -123,11 +123,15 @@ button {
 .quote {
     font-weight: 200;
     font-size: 36px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .quoter {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .quad4 {
@@ -147,6 +151,15 @@ button {
 
 .signup1 {
     border: 2px solid white;
+}
+
+.up {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dwn {
+    font-size: 18px;
 }
 
 .footer {
