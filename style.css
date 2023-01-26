@@ -148,3 +148,12 @@ button {
 .signup1 {
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 24px;
+}
