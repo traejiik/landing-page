@@ -129,3 +129,22 @@ button {
     font-weight: bold;
     font-size: 12px;
 }
+
+.quad4 {
+    background-color: #ffffff;
+}
+
+.box {
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 64px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup1 {
+    border: 2px solid white;
+}
