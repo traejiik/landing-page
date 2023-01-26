@@ -113,3 +113,19 @@ button {
 .info {
     max-width: 200px;
 }
+
+.quad3 {
+    text-align: center;
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.quoter {
+    font-weight: bold;
+    font-size: 12px;
+}
