@@ -15,7 +15,7 @@ body {
     padding: 0 20px;
     margin: 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .himg{
@@ -38,10 +38,54 @@ body {
 ul{
     display: flex;
     list-style: none;
-    gap: 24px
+    gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: #f9faf8;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.quad1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.placeholder {
+    width: 400px;
+    height: 230px;
+    padding: 0 0 50px 0;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.herosub {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 0;
+    padding: 6px 16px;
+    border: 0;
+    font-weight: bold;
 }
