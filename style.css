@@ -72,6 +72,7 @@ a {
     font-weight: bolder;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: #f9faf8;
 }
 
 .herosub {
@@ -88,4 +89,27 @@ button {
     padding: 6px 16px;
     border: 0;
     font-weight: bold;
+    color: #f9faf8;
+}
+
+.quad2 {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 32px;
+    margin: 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;
 }
